@@ -1,1 +1,1 @@
-# rimfrost-framework-adapters
+# rimfrost-framework-arbetsgivare-adapter
