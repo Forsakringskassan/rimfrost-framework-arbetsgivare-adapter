@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-framework-arbetsgivare-adapter.
 
+## 0.0.2 (2026-02-11)
+
+### Bug Fixes
+
+-  Adjust field names to be more sensible ([b770c](https://github.com/Forsakringskassan/rimfrost-framework-arbetsgivare-adapter/commit/b770c44e7e490f8) Lars Persson)  
+
 ## 0.0.1 (2026-02-11)
 
 ### Bug Fixes
