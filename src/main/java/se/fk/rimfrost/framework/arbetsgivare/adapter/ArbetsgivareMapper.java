@@ -15,19 +15,16 @@ public class ArbetsgivareMapper
 
       if (apiResponse.getAnstallningar().isEmpty())
       {
-         return ImmutableArbetsgivareResponse.builder()
-               .organisationsNr(null)
-               .arbetstid(null)
-               .startdag(null)
-               .slutdag(null)
-               .build();
+         return null;
       }
+
       Anstallning anstallning = apiResponse.getAnstallningar().getLast();
       return ImmutableArbetsgivareResponse.builder()
-            .organisationsNr(anstallning.getOrganisation().getNummer())
-            .arbetstid(anstallning.getArbetstid())
-            .startdag(anstallning.getStartdag())
-            .slutdag(anstallning.getSlutdag())
+            .organisationsnamn(anstallning.getOrganisation().getNamn())
+            .organisationsnummer(anstallning.getOrganisation().getNummer())
+            .arbetstidProcent(anstallning.getArbetstid())
+            .anstallningsdag(anstallning.getStartdag())
+            .sistaAnstallningsdag(anstallning.getSlutdag())
             .build();
    }
 }

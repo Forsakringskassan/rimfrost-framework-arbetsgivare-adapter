@@ -1,11 +1,11 @@
 package se.fk.rimfrost.framework.arbetsgivare.adapter.dto;
 
+import jakarta.annotation.Nullable;
 import org.immutables.value.Value;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-import javax.annotation.Nullable;
 import java.time.LocalDate;
 
 @Value.Immutable
@@ -13,17 +13,15 @@ import java.time.LocalDate;
 @JsonDeserialize(as = ImmutableArbetsgivareResponse.class)
 public interface ArbetsgivareResponse
 {
+   String organisationsnummer();
+
+   String organisationsnamn();
+
+   int arbetstidProcent();
+
+   LocalDate anstallningsdag();
 
    @Nullable
-   String organisationsNr();
-
-   @Nullable
-   Integer arbetstid();
-
-   @Nullable
-   LocalDate startdag();
-
-   @Nullable
-   LocalDate slutdag();
+   LocalDate sistaAnstallningsdag();
 
 }
