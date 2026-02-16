@@ -50,7 +50,6 @@ public class ArbetsgivareMapper
 
       return ImmutableSpecificeradLonResponse.builder()
             .lonesumma(apiResponse.getLonesumma())
-            .antalLonerader(apiResponse.getAntalLonerader())
             .organisationsnamn(apiResponse.getOrganisation().getNamn())
             .organisationsnummer(apiResponse.getOrganisation().getNummer())
             .lonerader(lonerader)

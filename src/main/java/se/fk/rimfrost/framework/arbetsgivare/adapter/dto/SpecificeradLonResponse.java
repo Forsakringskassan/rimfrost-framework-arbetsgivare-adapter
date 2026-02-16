@@ -13,8 +13,6 @@ public interface SpecificeradLonResponse
 {
    double lonesumma();
 
-   int antalLonerader();
-
    String organisationsnamn();
 
    String organisationsnummer();
