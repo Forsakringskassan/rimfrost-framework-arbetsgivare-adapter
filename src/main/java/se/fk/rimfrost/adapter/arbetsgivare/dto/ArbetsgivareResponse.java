@@ -1,4 +1,4 @@
-package se.fk.rimfrost.framework.arbetsgivare.adapter.dto;
+package se.fk.rimfrost.adapter.arbetsgivare.dto;
 
 import jakarta.annotation.Nullable;
 import org.immutables.value.Value;

@@ -1,4 +1,4 @@
-package se.fk.rimfrost.framework.arbetsgivare.adapter;
+package se.fk.rimfrost.adapter.arbetsgivare;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -6,10 +6,10 @@ import jakarta.inject.Inject;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import se.fk.github.jaxrsclientfactory.JaxrsClientFactory;
 import se.fk.github.jaxrsclientfactory.JaxrsClientOptionsBuilders;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.ArbetsgivareRequest;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.ArbetsgivareResponse;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.SpecificeradLonRequest;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.SpecificeradLonResponse;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.ArbetsgivareRequest;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.ArbetsgivareResponse;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.SpecificeradLonRequest;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.SpecificeradLonResponse;
 import se.fk.rimfrost.api.arbetsgivare.jaxrsspec.controllers.generatedsource.ArbetsgivareControllerApi;
 
 @SuppressWarnings("unused")
