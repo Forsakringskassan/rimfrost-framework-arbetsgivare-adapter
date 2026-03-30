@@ -1,4 +1,4 @@
-package se.fk.rimfrost.framework.arbetsgivare.adapter.dto;
+package se.fk.rimfrost.adapter.arbetsgivare.dto;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

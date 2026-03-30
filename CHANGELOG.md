@@ -1,6 +1,6 @@
-# rimfrost-framework-arbetsgivare-adapter changelog
+# rimfrost-adapter-arbetsgivare changelog
 
-Changelog of rimfrost-framework-arbetsgivare-adapter.
+Changelog of rimfrost-adapter-arbetsgivare.
 
 ## 0.1.0 (2026-02-19)
 

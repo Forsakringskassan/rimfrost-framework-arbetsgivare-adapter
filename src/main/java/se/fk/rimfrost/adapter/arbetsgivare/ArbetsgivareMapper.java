@@ -1,12 +1,12 @@
-package se.fk.rimfrost.framework.arbetsgivare.adapter;
+package se.fk.rimfrost.adapter.arbetsgivare;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.ArbetsgivareResponse;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.ImmutableArbetsgivareResponse;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.SpecificeradLonResponse;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.ImmutableSpecificeradLonResponse;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.LoneradDto;
-import se.fk.rimfrost.framework.arbetsgivare.adapter.dto.ImmutableLoneradDto;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.ArbetsgivareResponse;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.ImmutableArbetsgivareResponse;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.SpecificeradLonResponse;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.ImmutableSpecificeradLonResponse;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.LoneradDto;
+import se.fk.rimfrost.adapter.arbetsgivare.dto.ImmutableLoneradDto;
 import se.fk.rimfrost.api.arbetsgivare.jaxrsspec.controllers.generatedsource.model.Anstallning;
 import se.fk.rimfrost.api.arbetsgivare.jaxrsspec.controllers.generatedsource.model.GetArbetsgivare200Response;
 import se.fk.rimfrost.api.arbetsgivare.jaxrsspec.controllers.generatedsource.model.SpecificeradLon;
