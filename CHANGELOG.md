@@ -2,6 +2,20 @@
 
 Changelog of rimfrost-adapter-arbetsgivare.
 
+## 1.0.0 (2026-04-29)
+
+### Breaking changes
+
+-  release 1.0 ([2da57](https://github.com/Forsakringskassan/rimfrost-adapter-arbetsgivare/commit/2da571bbc5e9fcc) Lars Persson)  
+
+### Features
+
+-  release 1.0 ([2da57](https://github.com/Forsakringskassan/rimfrost-adapter-arbetsgivare/commit/2da571bbc5e9fcc) Lars Persson)  
+
+### Bug Fixes
+
+-  Bump rimfrost-service-arbetsgivare-openapi to released version ([96d1d](https://github.com/Forsakringskassan/rimfrost-adapter-arbetsgivare/commit/96d1d8f56c93d73) Lars Persson)  
+
 ## 0.1.1 (2026-03-30)
 
 ### Bug Fixes
